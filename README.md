@@ -10,7 +10,26 @@
 
 * Ref> http://stackoverflow.com/questions/19351832/copy-from-one-workbook-and-paste-into-another
 
+```
+Sub foo()
+Dim x As Workbook
+Dim y As Workbook
 
+'## Open both workbooks first:
+Set x = Workbooks.Open(" path to copying book ")
+Set y = Workbooks.Open(" path to destination book ")
+
+'Now, copy what you want from x:
+x.Sheets("name of copying sheet").Range("A1").Copy
+
+'Now, paste to y worksheet:
+y.Sheets("sheetname").Range("A1").PasteSpecial
+
+'Close x:
+x.Close
+
+End Sub
+```
 
 ## Admin
 * Load Func library 
@@ -37,6 +56,6 @@
 > 
 
 
-* If Gardu value is empty (e.g. no Gardu is available)?
+* If Gardu value is empty (e.g. Gardu = "-")?
 * Cross check the Gardu and Group ID/name? 
 
