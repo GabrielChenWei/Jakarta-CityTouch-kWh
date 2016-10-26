@@ -58,7 +58,8 @@ End Sub
 * Load Func library 
 
 * Sheets("Ref") as the configuration page to hold the Public Variables from the NamedRange and the Public constants 
-> Sheets folder path: text field, filled by operator
+> Sheets folder path: text field, filled by operator 
+> * Sheets folder path: can be file selection window: Ref> http://stackoverflow.com/questions/10304989/open-windows-explorer-and-select-a-file
 > Site: drop down list, select by operator
 > Sheets("Sheet1").Range("C2").Value is "site name" e.g. "Jakarta Pusat"
 > Sheets("Sheet1").Range("E3").Value is "From date", but uses rightest 10 chars only
