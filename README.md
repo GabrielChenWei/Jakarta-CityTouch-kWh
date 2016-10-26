@@ -1,11 +1,12 @@
 # Jakarta-CityTouch-kWh
 
 ## User Management
-
+* 
+* 
 
 
 ## Main 
-* FromDate is date indicator (same as display on daily bar chart)
+* __FromDate__ is date indicator (same as display on daily bar chart)
 * Copy content from all named workbook: maximum 31 sheets per month
 
 * Ref> http://stackoverflow.com/questions/19351832/copy-from-one-workbook-and-paste-into-another
@@ -37,7 +38,7 @@ End Sub
 * Pre-add blank Sheets("Temp") manually as temporary process data placeholder
 
 ### Process
-* Process one file
+* Process one file (per site daily energy consumption export)
      * Copy the 1st file Sheets("Sheet1").UsedRange to Workbook("Processor").Sheets("Input")
      * :o: ? How to determine the sequence of the files
 * 
@@ -83,7 +84,8 @@ End Sub
 
 ## Pending features
 * Additional 2 columns to record the FromDate and ToDate to cross check whether any missing date is there
-* Incorrect data checking (:o: whether want to enable it as pre-check?)
+* Incorrect data checking (:o: ? whether want to enable it as pre-check?)
+    * To enable the incorrect data checking (whether the daily energy consumption is correct), the wattage of the luminaire is needed. To be enabled in %All Lum kWh%
 * Cross check the Gardu and Group ID/name? 
 * Whether the operator can select a group of files and then process it one by one?
  * http://stackoverflow.com/questions/12687536/how-to-get-selected-path-and-name-of-the-file-using-open-file-dialog-control
