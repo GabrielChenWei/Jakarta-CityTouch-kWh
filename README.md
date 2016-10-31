@@ -1,4 +1,4 @@
-# Jakarta-CityTouch-kWh
+# Jakarta-CityTouch-kWh : VBA tool 
 
 ## User Management
 * 
@@ -33,6 +33,8 @@ End Sub
 ```
 
 ### Setup
+* Fix the output from CityTouch by standard query cross 5 sites: 
+ * 
 * Pre-add blank Sheets("Input") manually as a placeholder for daily energy report 
      * :o: ? Wanna make it for all sites or just one site? 
 * Pre-add blank Sheets("Temp") manually as temporary process data placeholder
