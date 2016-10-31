@@ -1,0 +1,28 @@
+Applied sites: Pusat, ~~Selatan~~, ~~Utara~~, ~~Barat~~,~~Timur~~
+
+---------------------------------------------------------------
+Name of query: ''%All lums kWh export%''
+
+----------------------------------------------------------------
+Criteria
+
+* Search for components: luminaire
+* With: Asset, Is Remote Managed = Yes.
+
+Property Selection
+
+* Luminaire
+ * Energy Consumption kWh
+ *  Serial Number
+ *  Lamp Burning Hours
+ *  Installation date
+* Luminaire Type
+ *  Actual Wattage
+* Asset
+ *  Group
+ *  Longitude
+ *  Latitude
+ * Street
+ *  Kecamatan
+ *  Gardu
+ *  IDPEL
